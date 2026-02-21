@@ -18,7 +18,6 @@ body{
 .container-main{
     border: 2px solid white;
     width: 30%;
-    
     height: auto;
     padding: 30px;
     gap: 40px;
@@ -35,7 +34,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
 .list-tasks{
@@ -51,6 +50,11 @@ body{
     border-radius: 7px;
     border: 1px solid rgb(206, 206, 206);
     padding: 10px;
+}
+
+#tarefa:focus{
+    outline: none;
+    border-color: #00FF84;
 }
 
 #botaoEnviar{
@@ -115,6 +119,10 @@ background-color: red;}
 
 .concluida{
     text-decoration: line-through;
+}
+
+.container-tasks{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
 

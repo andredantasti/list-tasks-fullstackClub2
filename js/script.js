@@ -42,6 +42,7 @@ const inserirTarefaExcluir = (valor) =>{
       listTasks.removeChild(linha);
     });
 
+    //TAREFA CONCLUIDA
     linha.addEventListener("click", ()=>{
         linha.classList.toggle("concluida");
     })
