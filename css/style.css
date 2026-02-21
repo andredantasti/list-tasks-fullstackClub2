@@ -14,6 +14,7 @@ body{
     height: 100dvh;
 }
 
+
 .container-main{
     border: 2px solid white;
     width: 30%;
@@ -117,4 +118,56 @@ background-color: red;}
 }
 
 
+@media (min-width: 360px) and (max-width:1024px){
 
+    body{
+        align-items: start;
+        margin-top: 30px;
+    }
+
+    .container-main{
+        width: 90%;
+    }
+
+    #botaoEnviar{
+        font-size: 0.6rem;
+    }
+
+ 
+    .list-tasks li{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #11bdc0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+}
+ .list-tasks li:hover{
+    background-color: #5cd69b;
+    color: white;
+    cursor: pointer;
+}
+
+.list-tasks img{
+    width: 30px;
+}
+
+.botaoExcluir{
+    background: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.botaoExcluir:hover{
+background-color: red;}
+
+
+}

@@ -44,7 +44,6 @@ const inserirTarefaExcluir = (valor) =>{
 
     linha.addEventListener("click", ()=>{
         linha.classList.toggle("concluida");
-        linha.style.backgroundColor = "green";
     })
 
 }
